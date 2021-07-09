@@ -1,0 +1,10 @@
+JWT 101 - a simple node JWT api authentication
+
+This is a boilerplate project for study purposes - it will continue to grow to achieve some features in the future
+
+For now, what it has is:
+* Simple routing with middlewares for user creation and authentication
+* Ready for MongoDB Atlas integration with mongoose
+* Usage of bcrypt
+
+Based on Dev Ed's tutorial at https://www.youtube.com/watch?v=2jqok-WgelI <- be sure to check it out!
