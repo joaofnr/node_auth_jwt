@@ -7,6 +7,7 @@ const { connect } = require('./routes/auth');
 // import routes
 const authRoute = require('./routes/auth');
 const postRoute = require('./routes/posts');
+const accountRoute = require('./routes/account');
 
 dotenv.config();
 
@@ -26,5 +27,6 @@ app.use(express.json());
 // route middlewares (every auth route will have /api/user prefix)
 app.use('/api/user', authRoute);
 app.use('/api/posts', postRoute);
+app.use('/api/account', accountRoute);
 
 app.listen(3000, () => console.log('server running'));
